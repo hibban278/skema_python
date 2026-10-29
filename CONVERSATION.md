@@ -17,3 +17,19 @@ print()
 ```
 
 What argument does `print()` take?
+
+---
+## 2026-10-29 09:37, in .
+
+**Me:** give an example of printing 5 times
+
+**Tutor:**
+
+Printing something five times can be done with a loop.
+
+```python
+for i in range(5):
+    print("hello")
+```
+
+What is the name of the function used to repeat an action a specific number of times?

@@ -34,3 +34,7 @@ print("2.hello world")
 print("3.hello world")
 print("4.hello world")
 print("5.hello world")
+
+for i in range(5):
+    print("hello")
+    
