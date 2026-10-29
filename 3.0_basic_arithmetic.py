@@ -36,3 +36,9 @@ num2 = int (input("enter the seconf number"))
 #
 sum = num1+ num2
 print("sum of two number is ", sum)
+
+diff = 
+
+product 
+
+division
