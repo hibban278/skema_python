@@ -52,3 +52,25 @@ print(marketing_tools)  # Output: ['Google Ads', 'SEO', 'Email']
 ```
 
 What does `pop()` return if you call it without an index?
+
+---
+## 2026-10-29 11:23, in .
+
+**Me:** what is a dictonery
+
+**Tutor:**
+
+A dictionary is a Python container that stores key-value pairs, letting you look up a value by its key.
+
+```python
+# Example: mapping product names to prices
+prices = {
+    "hat": 12.50,
+    "gloves": 8.75,
+    "socks": 3.20
+}
+
+# TODO: write a line that prints the price of "gloves"
+```
+
+Which built-in function gives you all the keys of a dictionary?
