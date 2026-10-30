@@ -4,11 +4,15 @@ WHAT THE PROGRAM MUST DO
     Ask for two numbers and display the result of the four operations.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in?
-    2. What happens to it?
-    3. What comes out?
+    1. What goes in? The program prompts the user to input two integer numbers via the console
+    2. What happens to it? The program performs four mathematical operations using the inputs:
+    3. What comes out? The program prints the following text results to the console:
+• The values of both entered numbers.
+• The calculated sum, difference, and product.
+• The division result (if the second number is not zero) OR the message "The second number is 0".
+
     4. What should your program do when the second number is zero? Decide, write your
-       decision down, and only then implement it.
+       decision down, and only then implement it. The program prints the message "The second number is 0" and skips the division math entirely.
 
 WHAT THE AI CANNOT KNOW
     Your answer to question 4. There are at least three defensible ones: refuse the
@@ -31,14 +35,27 @@ DELIVERABLE
 
 
 # Your code below
-num1 = int(input("enter the first number"))
-num2 = int (input("enter the seconf number"))
-#
-sum = num1+ num2
-print("sum of two number is ", sum)
+number_1 = int(input("Enter number 1: "))
+number_2 = int(input("Enter number 2: "))
 
-diff = 
+print("The number 1 is: ", number_1)
+print("The number 2 is: ", number_2)
 
-product 
+# addition of two numbers
+sum = number_1 + number_2
+print("The sum of two numbers is: ", sum)
 
-division
+# difference of two numbers
+diff = number_2 - number_1
+print("The difference of two numbers is: ", diff)
+
+# product of two numbers
+product =  number_1 * number_2
+print("The product of two numbers is: ", product)
+
+# division of two numbers
+if number_2 != 0:
+    div = number_1 / number_2
+    print("The division of two numbers is: ", div)
+else:
+    print("The second number is 0")
