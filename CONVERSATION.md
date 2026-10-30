@@ -148,3 +148,23 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-30 13:34, in .
+
+**Me:** what is sort
+
+**Tutor:**
+
+Sorting a list or sequence in Python.
+
+```python
+# Sorting a list of numbers
+numbers = [3, 1, 4, 1, 5, 9]
+sorted_numbers = sorted(numbers)  # TODO: What does this return?
+
+# Sorting a list in-place
+numbers.sort()  # TODO: What is the difference between sorted() and sort()?
+```
+
+What is the return type of `sorted(numbers)`?
